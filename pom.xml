@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>kr.co.greenart.minee</groupId>
-	<artifactId>springMVC-5.3.x-legacy-archetype</artifactId>
+	<artifactId>spring-mvc-5.3.x-legacy-archetype</artifactId>
 	<version>1.0</version>
 	<packaging>maven-archetype</packaging>
 
