@@ -5,10 +5,10 @@
 	xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0 http://maven.apache.org/xsd/archetype-catalog-1.0.0.xsd">
 	<archetypes>
 		<archetype>
-			<groupId>kr.co.greenart.minee</groupId>
+			<groupId>io.github.syacucloud</groupId>
 			<artifactId>spring-mvc-5.3.x-legacy-archetype</artifactId>
 			<version>1.0</version>
-			<repository>https://github.com/green424minee/spring-mvc-5.3.x-legacy-archetype</repository>
+			<repository>https://github.com/syacucloud/spring-mvc-5.3.x-legacy-archetype</repository>
 		</archetype>
 	</archetypes>
 </archetype-catalog>

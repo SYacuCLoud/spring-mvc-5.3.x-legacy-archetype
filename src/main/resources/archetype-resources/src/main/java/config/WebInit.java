@@ -6,6 +6,7 @@ import javax.servlet.ServletRegistration.Dynamic;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
+// Servlet Context 설정
 public class WebInit extends AbstractAnnotationConfigDispatcherServletInitializer {
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
@@ -22,6 +23,7 @@ public class WebInit extends AbstractAnnotationConfigDispatcherServletInitialize
 		return new String[] { "/" };
 	}
 
+	// 기본 Encoding Filter - UTF-8
 	@Override
 	protected Filter[] getServletFilters() {
 		CharacterEncodingFilter characterEncodingFilter = new CharacterEncodingFilter();
